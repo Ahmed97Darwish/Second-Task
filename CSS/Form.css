@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/*  ---------- Start Main Rilze ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+.container {
+  background-color: #fff;
+  width: 500px;
+  padding-right: 0;
+  padding-left: 0;
+  box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+    0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+/*  ---------- End Main Rilze ---------- */
+
+/*  ---------- Start Main Log In ---------- */
+
+.form {
+  padding: 25px 30px;
+}
+
+.form header h1 {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.form form .error-message {
+  color: #721c24;
+  background-color: #f8d7da;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #f5c6cb;
+  /*display: none;*/
+}
+
+.form form .field {
+  position: relative;
+}
+
+.form form .field label {
+  font-size: 15px;
+}
+
+.form form .field input {
+  height: 40px;
+  width: 100%;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form form .field input[placeholder] {
+  font-size: 15px;
+}
+
+.form form .field i {
+  position: absolute;
+  top: 70%;
+  right: 8px;
+  transform: translateY(-50%);
+  color: #ccc;
+  cursor: pointer;
+}
+
+.form form .field i.active::before {
+  content: "\f070";
+  color: #333;
+}
+
+.form form .btn {
+  margin-top: 13px;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  background-color: #c11325;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.form form .btn:hover {
+  background-color: #fff;
+  color: #c11325;
+  border: 1px solid #c11325;
+  font-weight: bold;
+}
+
+.form form .image {
+  font-size: 17px;
+}
+
+.form form .image input {
+  padding: 3px 10px;
+}
+
+.form .link {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.form .link a {
+  color: #555;
+}
+
+.form .link a:hover {
+  text-decoration: underline;
+}
+
+/*  ---------- End Main Log In ---------- */
